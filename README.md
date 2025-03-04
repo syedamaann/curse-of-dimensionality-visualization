@@ -1,3 +1,10 @@
+
+
+
+https://github.com/user-attachments/assets/46281b75-4677-4fc5-a778-6b9bf22b4749
+
+
+
 # The Curse of Dimensionality: Interactive Visualization
 
 This project creates interactive visualizations that demonstrate the "curse of dimensionality" - how high-dimensional spaces break human intuition and create challenges for data analysis, machine learning, and visualization.
