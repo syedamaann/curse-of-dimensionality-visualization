@@ -2,6 +2,7 @@
 
 This project creates interactive visualizations that demonstrate the "curse of dimensionality" - how high-dimensional spaces break human intuition and create challenges for data analysis, machine learning, and visualization.
 
+
 ## The Many Dimensions of Reality
 
 Real-world phenomena often depend on many variables — hundreds, thousands, even millions. Imagine treating each of these variables as a dimension:
@@ -36,31 +37,33 @@ Each visualization includes detailed explanations about how the curse of dimensi
 
 ## Setup and Running
 
-1. Create and activate a virtual environment:
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/curse-of-dimensionality-visualization.git
+cd curse-of-dimensionality-visualization
+```
 
+2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-2. Install the required packages:
-
+3. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the visualization script:
-
+4. Run the visualization script:
 ```bash
 python dimension_transition.py
 ```
 
-4. Two HTML files will be generated:
+5. Two HTML files will be generated:
    - `dimension_selector.html` - Interactive visualization with dimension selector
    - `dimension_animation.html` - Slow-moving animation (opens automatically)
 
 Alternatively, you can use the provided shell script:
-
 ```bash
 chmod +x run_visualization.sh
 ./run_visualization.sh
@@ -122,3 +125,7 @@ The visualizations also explain strategies for dealing with high-dimensional dat
 - Dimensionality reduction techniques (like PCA)
 - Feature selection
 - Specialized algorithms designed for high-dimensional spaces
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
